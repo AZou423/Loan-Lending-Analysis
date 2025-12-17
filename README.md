@@ -2,4 +2,16 @@
 
 ## Project Overview
 
-LendingClub is a digital marketplace bank that offers various loans, like personal and small business loans, auto refinancing, etc. It began as a peer-to-peer lending company in 2007, but transitioned to a fully chartered bank in 2021 after acquiring Radius Bank. In this project, I analyze a dataset of their loans from 2007 to 2018 to identify trends in loan volume, borrower behavior, loan performance, and risk patterns over time. The ultimate goal of this project was to harness these insights to drive strategic decisions about scaling high-performing loan categories while reducing exposure to high-risk borrower segments for the growth and strategy team.
+LendingClub is a digital marketplace bank that offers various loans, like personal and small business loans, auto refinancing, etc. It began as a peer-to-peer lending company in 2007, but transitioned to a fully chartered bank in 2021 after acquiring Radius Bank. In this project, I analyze a dataset of their loans from 2007 to 2018 to identify trends in funded loan volume, borrower behavior, loan performance, and risk patterns over time. The ultimate goal of this project was to harness these insights to drive strategic decisions about scaling high-performing loan categories while reducing exposure to high-risk borrower segments for the growth and strategy team.
+
+## Executive Summary
+
+LendingClub's funded loan volume has increased significantly from 2007 to 2018, with total annual loan volume increasing from $4.25M in 2007 to $7.51B in 2018, representing a CAGR of 97.37% and a clear inflection point during the 2012–2015 hyper-growth period. Across the portfolio, Debt Consolidation consistently drove the largest share of originations, accounting for 59.62% of cumulative loan volume, with Grades B and C contributing the majority of funded loans. Risk analysis highlights a persistent yield–risk tradeoff: average interest rates increase monotonically from Grade A (~7–9%) to Grade G (~25–30%), while charge-off rates rise from approximately 0-8% to 8-44% with lower-grade segments (E–G) yielding materially higher default intensity across all loan purposes. To optimize risk-adjusted returns, LendingClub should continue scaling mid-grade (B–C) debt consolidation lending, while tightening underwriting, pricing, and exposure limits for lower-grade segments where incremental yield is outweighed by elevated credit risk.
+
+## ERD
+
+<img width="586" height="322" alt="image" src="https://github.com/user-attachments/assets/254e5e79-fa23-46f2-ae61-5e1795c54846" />
+
+
+
+
