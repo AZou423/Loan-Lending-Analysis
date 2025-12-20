@@ -10,13 +10,13 @@ LendingClub's funded loan volume has increased significantly from 2007 to 2018, 
 
 ## Data Source
 
-The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here](https://www.kaggle.com/datasets/wordsforthewise/lending-club).
 
 ## Data Preparation and Cleaning
 
 Before visualization and analysis in Tableau, the raw dataset was cleaned, standardized, and structured using SQL in VSCode using the SQLite extension. 
 
-The original CSV contained approximately 50 text-typed fields. A subset of 16 variables relevant to business, risk, and performance analysis was selected to form a base table, which was then normalized into two relational tables—loans and borrowers—with appropriate data types, primary keys, and constraints to support accurate joins and aggregation.
+The original CSV contained approximately 50 text-typed fields. A subset of 16 variables relevant to business, risk, and performance analysis was selected to form a base table, which was then normalized into two relational tables, loans and borrowers, with appropriate data types, primary keys, and constraints to support accurate joins and aggregation.
 
 During data ingestion into VSCode, data quality issues were identified and resolved. Malformed ID values due to embedded non-data rows were identified and removed to avoid silent primary-key collisions during type casting and ensure referential integrity. Additional validation checks using CTEs and temp tables confirmed the absence of duplicate records, null violations, and nonsensical values. Further feature engineering was performed to support downstream analysis, including standardizing loan status fields, creating a new field to verify policy compliance, and deriving time-based attributes from issuance dates. Cleaned and validated tables were materialized as final analysis-ready datasets and subsequently connected to Tableau for visualization and exploratory analysis.
 
