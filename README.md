@@ -8,6 +8,19 @@ LendingClub is a digital marketplace bank that offers various loans, like person
 
 LendingClub's funded loan volume has increased significantly from 2007 to 2018, with total annual loan volume increasing from $4.25M in 2007 to $7.51B in 2018, representing a CAGR of 97.37% and a clear inflection point during the 2012–2015 hyper-growth period. Across the portfolio, Debt Consolidation consistently drove the largest share of originations, accounting for 59.62% of cumulative loan volume, with Grades B and C contributing the majority of funded loans. Risk analysis highlights a persistent yield–risk tradeoff: average interest rates increase monotonically from Grade A (~7–9%) to Grade G (~25–30%), while charge-off rates rise from approximately 0-8% to 8-44% with lower-grade segments (E–G) yielding materially higher default intensity across all loan purposes. To optimize risk-adjusted returns, LendingClub should continue scaling mid-grade (B–C) debt consolidation lending, while tightening underwriting, pricing, and exposure limits for lower-grade segments where incremental yield is outweighed by elevated credit risk.
 
+## Data Source
+
+The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here] https://www.kaggle.com/datasets/wordsforthewise/lending-club
+
+## Data Preparation and Cleaning
+
+Before visualization and analysis in Tableau, the raw dataset was cleaned, standardized, and structured using SQL in VSCode using the SQLite extension. 
+
+The original CSV contained approximately 50 text-typed fields. A subset of 16 variables relevant to business, risk, and performance analysis was selected to form a base table, which was then normalized into two relational tables—loans and borrowers—with appropriate data types, primary keys, and constraints to support accurate joins and aggregation.
+
+During data ingestion into VSCode, data quality issues were identified and resolved. Malformed ID values due to embedded non-data rows were identified and removed to avoid silent primary-key collisions during type casting and ensure referential integrity. Additional validation checks using CTEs and temp tables confirmed the absence of duplicate records, null violations, and nonsensical values. Further feature engineering was performed to support downstream analysis, including standardizing loan status fields, creating a new field to verify policy compliance, and deriving time-based attributes from issuance dates. Cleaned and validated tables were materialized as final analysis-ready datasets and subsequently connected to Tableau for visualization and exploratory analysis.
+
+
 ## ERD
 
 <img width="586" height="322" alt="image" src="https://github.com/user-attachments/assets/254e5e79-fa23-46f2-ae61-5e1795c54846" />
