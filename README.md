@@ -10,7 +10,7 @@ LendingClub's funded loan volume has increased significantly from 2007 to 2018, 
 
 ## Data Source
 
-The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here] https://www.kaggle.com/datasets/wordsforthewise/lending-club
+The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 
 ## Data Preparation and Cleaning
 
