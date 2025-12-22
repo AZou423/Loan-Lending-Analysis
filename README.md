@@ -8,6 +8,11 @@ LendingClub is a digital marketplace bank that offers various loans, like person
 
 LendingClub's funded loan volume has increased significantly from 2007 to 2018, with total annual loan volume increasing from $4.25M in 2007 to $7.51B in 2018, representing a CAGR of 97.37% and a clear inflection point during the 2012–2015 hyper-growth period. Across the portfolio, Debt Consolidation consistently drove the largest share of originations, accounting for 59.62% of cumulative loan volume, with Grades B and C contributing the majority of funded loans. Risk analysis highlights a persistent yield–risk tradeoff: average interest rates increase monotonically from Grade A (~7–9%) to Grade G (~25–30%), while charge-off rates rise from approximately 0-8% to 8-44% with lower-grade segments (E–G) yielding materially higher default intensity across all loan purposes. To optimize risk-adjusted returns, LendingClub should continue scaling mid-grade (B–C) debt consolidation lending, while tightening underwriting, pricing, and exposure limits for lower-grade segments where incremental yield is outweighed by elevated credit risk.
 
+Below is a snapshot of the dashboard used for analysis of the 2018 period. The full interactive dashboard can be found [here](https://public.tableau.com/app/profile/andrew.zou/viz/LoanLending_17538963789000/Dashboard1).
+
+<img width="1362" height="652" alt="image" src="https://github.com/user-attachments/assets/ed77cdfa-3072-4a46-80c7-65aad9f49f1a" />
+
+
 ## Data Source
 
 The dataset used in this analysis was sourced from Kaggle and contains historical LendingClub loan-level data spanning 2007–2018. The data originates directly from LendingClub’s publicly released loan records and includes borrower attributes, loan characteristics, performance outcomes, and timestamps. The data set can be found [here](https://www.kaggle.com/datasets/wordsforthewise/lending-club).
@@ -22,9 +27,12 @@ During data ingestion into VSCode, data quality issues were identified and resol
 
 
 ## ERD
+The cleaned and normalized database structure is shown below with the borrower and loan tables with a total row count of 2,260,668.
 
 <img width="586" height="322" alt="image" src="https://github.com/user-attachments/assets/254e5e79-fa23-46f2-ae61-5e1795c54846" />
 
+## Key Insights
 
+#
 
 
