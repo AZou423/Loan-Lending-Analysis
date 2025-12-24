@@ -33,14 +33,14 @@ The cleaned and normalized database structure is shown below with the borrower a
 
 ## Key Insights
 
-# Loan Volume Trends & Growth
+### Loan Volume Trends & Growth
 - Total funded loan volume increased from $4.25M in 2007 to $7.51B in 2018 with a 97.37% CAGR, with the most rapid expansion occurring between 2012 and 2015, when annual volume grew from $687.17M to $6.21B demonstrating a nearly 9x growth period.
 - Annual growth rates peaked above 180% in 2012–2013 but slowed significantly after 2015, with percent growth from the previous year being –1.6% in 2016 and 2.1% in 2017 however in 2018 the percent growth increases again to 20.4% from 2017.
 - The non-linear growth trend from 2007 to 2018 indicates LendingClub achieved scale primarily through a short hyper-growth phase rather than steady long-term compounding.
 
 <img width="414" height="258" alt="image" src="https://github.com/user-attachments/assets/94c7c344-28e7-4ec7-bf2b-00c38f33b803" />
 
-# Borrower Grade Distribution
+### Borrower Grade Distribution
 - Grades B and C contributed the majority of funded loan volume during peak growth years (2013–2016), with Grade C emerging as the top contributing grade in 2014–2016, including the platform’s peak year ($6.21B in 2015).
 - Although lower-grade segments (D–G) increased in absolute volume (~$2.28M in 2007 to ~$1.37B in 2018) they remained secondary contributors to funded loan volume relative to B–C grades.
 - As funded loan volume grew, lower-grade segments generally contributed less to the total volume (~25.7% of total loan volume in 2007 to ~12.41% in 2018), indicating risk-selective growth focused on scalable mid-grade credit.
