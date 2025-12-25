@@ -46,7 +46,6 @@ The cleaned and normalized database structure is shown below with the borrower a
 
 Loan Volume Distribution in 2007 (top) and 2018 (bottom)
 <img width="726" height="242" alt="image" src="https://github.com/user-attachments/assets/341cc6ac-ded6-473f-9636-5dcf11525595" /> <img width="193" height="127" alt="image" src="https://github.com/user-attachments/assets/99f8e5de-c7df-4455-8391-2c05b8933f67" />
-
 <img width="737" height="248" alt="image" src="https://github.com/user-attachments/assets/2644ebc4-f66a-4d48-bd9f-76d0d52b5c72" />
 
 ### Charge-Off Behavior
