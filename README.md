@@ -45,21 +45,22 @@ The cleaned and normalized database structure is shown below with the borrower a
 - As funded loan volume grew, lower-grade segments generally contributed less to the total volume (~25.7% of total loan volume in 2007 to ~12.41% in 2018), indicating risk-selective growth focused on scalable mid-grade credit.
 
 Loan Volume Distribution in 2007 (top) and 2018 (bottom)
-<img width="726" height="242" alt="image" src="https://github.com/user-attachments/assets/341cc6ac-ded6-473f-9636-5dcf11525595" /> 
+<img width="726" height="242" alt="image" src="https://github.com/user-attachments/assets/341cc6ac-ded6-473f-9636-5dcf11525595" /> <img width="193" height="127" alt="image" src="https://github.com/user-attachments/assets/99f8e5de-c7df-4455-8391-2c05b8933f67" />
+
 <img width="737" height="248" alt="image" src="https://github.com/user-attachments/assets/2644ebc4-f66a-4d48-bd9f-76d0d52b5c72" />
 
 ### Charge-Off Behavior
 - Charge-off rates increased non-linearly from ~0–8% in Grades A–B to as high as ~48% in Grades F–G indicating diminishing marginal returns in lower-grade lending
 - The number of charged-off loans increased from 158 in 2007 to 75,803 in 2015, closely tracking rapid origination growth.
-- Post-2015, charge-off counts declined sharply (68,242 in 2016; 39,148 in 2017; 8,867 in 2018), even as annual loan volume remained above $6B which suggests improved underwriting discipline and risk controls as growth slowed.
-- Average interest rates increased monotonically from ~7–9% (Grade A) to ~25–30% (Grade G), demonstrating disciplined risk-based pricing with higher-risk borrowers being consistently priced for additional yield.
+- Post-2015, charge-off counts declined sharply by ~88.3% from 2015 to 2018 (75,803 in 2015; 68,242 in 2016; 39,148 in 2017; 8,867 in 2018), even as annual loan volume remained above $6B which suggests improved underwriting discipline and risk controls as growth slowed and demonstrates materially higher risk-adjusted growth efficiency as underwriting tightened
+- While average interest rates rose monotonically across grades (A: ~7–9% to G: ~25–30%), the disproportionately higher charge-off rates in Grades F–G suggest that incremental yield did not fully compensate for credit losses at the lowest credit tiers.
 
 <img width="418" height="361" alt="image" src="https://github.com/user-attachments/assets/5aa06a02-e56a-4fbe-ad49-e2dc185bee03" />
 <img width="427" height="361" alt="image" src="https://github.com/user-attachments/assets/829e1bf4-5542-4411-8ef8-30ef4ce93c4f" />
 
 ### Risk Across Grades and Purposes
 - Grades E–G consistently exhibited elevated charge-off rates across all loan purposes, including Debt Consolidation, Credit Card, and Small Business loans, demonstrating that default risk is primarily driven by borrower credit quality rather than loan intent.
-- Small Business loans display higher charge-off rates at comparable grades despite contributing a smaller share of total volume, which suggests that Small Business lending carries disproportionately high risk relative to its growth contribution.
+- Small Business loans display higher charge-off rates at comparable grades despite contributing a smaller share of total volume, which suggests that Small Business lending carries disproportionately high risk relative to its growth contribution than other categories, such as Debt Consolidation.
 
 <img width="867" height="303" alt="image" src="https://github.com/user-attachments/assets/22979c3a-1cf6-4952-b390-f4bdde29a279" />
 
