@@ -6,7 +6,7 @@ LendingClub is a digital marketplace bank that offers various loans, like person
 
 ## Executive Summary
 
-LendingClub's funded loan volume has increased significantly from 2007 to 2018, with total annual loan volume increasing from $4.25M in 2007 to $7.51B in 2018, representing a CAGR of 97.37% and a clear inflection point during the 2012–2015 hyper-growth period. Across the portfolio, Debt Consolidation consistently drove the largest share of originations, accounting for 59.62% of cumulative loan volume, with Grades B and C contributing the majority of funded loans. Risk analysis highlights a persistent yield–risk tradeoff: average interest rates increase monotonically from Grade A (~7–9%) to Grade G (~25–30%), while charge-off rates rise from approximately 0-8% to 8-44% with lower-grade segments (E–G) yielding materially higher default intensity across all loan purposes. To optimize risk-adjusted returns, LendingClub should continue scaling mid-grade (B–C) debt consolidation lending, while tightening underwriting, pricing, and exposure limits for lower-grade segments where incremental yield is outweighed by elevated credit risk.
+LendingClub's funded loan volume has increased significantly from 2007 to 2018, with total annual loan volume increasing from $4.25M in 2007 to $7.51B in 2018, representing a CAGR of 97.37% and a clear inflection point during the 2012–2015 hyper-growth period. Across the portfolio, Debt Consolidation consistently drove the largest share of originations, accounting for 59.62% of cumulative loan volume, with Grades B and C contributing the majority of funded loans. Risk analysis highlights a persistent yield–risk tradeoff: average interest rates increase monotonically from Grade A (~7–9%) to Grade G (~25–30%), while charge-off rates rise from approximately 0-8% to 8-48% with lower-grade segments (E–G) yielding materially higher default intensity across all loan purposes. To optimize risk-adjusted returns, LendingClub should continue scaling mid-grade (B–C) debt consolidation lending, while tightening underwriting, pricing, and exposure limits for lower-grade segments where incremental yield is outweighed by elevated credit risk.
 
 Below is a snapshot of the dashboard used for analysis of the 2018 period. The full interactive dashboard can be found [here](https://public.tableau.com/app/profile/andrew.zou/viz/LoanLending_17538963789000/Dashboard1).
 
@@ -48,6 +48,25 @@ The cleaned and normalized database structure is shown below with the borrower a
 Loan Volume Distribution in 2007 (top) and 2018 (bottom)
 <img width="726" height="242" alt="image" src="https://github.com/user-attachments/assets/341cc6ac-ded6-473f-9636-5dcf11525595" /> 
 <img width="737" height="248" alt="image" src="https://github.com/user-attachments/assets/2644ebc4-f66a-4d48-bd9f-76d0d52b5c72" />
+
+### Charge-Off Behavior
+- Charge-off rates increased non-linearly from ~0–8% in Grades A–B to as high as ~48% in Grades F–G indicating diminishing marginal returns in lower-grade lending
+- The number of charged-off loans increased from 158 in 2007 to 75,803 in 2015, closely tracking rapid origination growth.
+- Post-2015, charge-off counts declined sharply (68,242 in 2016; 39,148 in 2017; 8,867 in 2018), even as annual loan volume remained above $6B which suggests improved underwriting discipline and risk controls as growth slowed.
+- Average interest rates increased monotonically from ~7–9% (Grade A) to ~25–30% (Grade G), demonstrating disciplined risk-based pricing with higher-risk borrowers being consistently priced for additional yield.
+
+<img width="418" height="361" alt="image" src="https://github.com/user-attachments/assets/5aa06a02-e56a-4fbe-ad49-e2dc185bee03" />
+<img width="427" height="361" alt="image" src="https://github.com/user-attachments/assets/829e1bf4-5542-4411-8ef8-30ef4ce93c4f" />
+
+### Risk Across Grades and Purposes
+- Grades E–G consistently exhibited elevated charge-off rates across all loan purposes, including Debt Consolidation, Credit Card, and Small Business loans, demonstrating that default risk is primarily driven by borrower credit quality rather than loan intent.
+- Small Business loans display higher charge-off rates at comparable grades despite contributing a smaller share of total volume, which suggests that Small Business lending carries disproportionately high risk relative to its growth contribution.
+
+<img width="867" height="303" alt="image" src="https://github.com/user-attachments/assets/22979c3a-1cf6-4952-b390-f4bdde29a279" />
+
+
+
+
 
 
 
