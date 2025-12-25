@@ -10,8 +10,7 @@ LendingClub's funded loan volume has increased significantly from 2007 to 2018, 
 
 Below is a snapshot of the dashboard used for analysis of the 2018 period. The full interactive dashboard can be found [here](https://public.tableau.com/app/profile/andrew.zou/viz/LoanLending_17538963789000/Dashboard1).
 
-<img width="1362" height="652" alt="image" src="https://github.com/user-attachments/assets/ed77cdfa-3072-4a46-80c7-65aad9f49f1a" />
-
+<img width="1461" height="883" alt="image" src="https://github.com/user-attachments/assets/188f65c2-dbc0-41a3-bb4a-80de51ad8254" />
 
 ## Data Source
 
