@@ -24,6 +24,7 @@ The original CSV contained approximately 50 text-typed fields. A subset of 16 va
 
 During data ingestion into VSCode, data quality issues were identified and resolved. Malformed ID values due to embedded non-data rows were identified and removed to avoid silent primary-key collisions during type casting and ensure referential integrity. Additional validation checks using CTEs and temp tables confirmed the absence of duplicate records, null violations, and nonsensical values. Further feature engineering was performed to support downstream analysis, including standardizing loan status fields, creating a new field to verify policy compliance, and deriving time-based attributes from issuance dates. Cleaned and validated tables were materialized as final analysis-ready datasets and subsequently connected to Tableau for visualization and exploratory analysis.
 
+The original CSV, cleaned tables, and SQL queries are all attached. 
 
 ## ERD
 The cleaned and normalized database structure is shown below with the borrower and loan tables, with a total row count of 2,260,668.
